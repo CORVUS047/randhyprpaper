@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "randpaper",
+					"name" : "randhyprpaper",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "randpaper::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-randpaper-c79feccb6866d8b72ef5.json",
-					"name" : "randpaper",
+					"id" : "randhyprpaper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-randhyprpaper-5d42a2add041649b1e3d.json",
+					"name" : "randhyprpaper",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/corvus/Documents/coding/script-cpp-rewrites/hyprpaper_rpaper/build",
-		"source" : "/home/corvus/Documents/coding/script-cpp-rewrites/hyprpaper_rpaper"
+		"build" : "/home/corvus/Documents/coding/script-cpp-rewrites/randpaper/build",
+		"source" : "/home/corvus/Documents/coding/script-cpp-rewrites/randpaper"
 	},
 	"version" : 
 	{

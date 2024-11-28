@@ -1,5 +1,7 @@
 # ninja log v6
-1	33	1732827540416542748	CMakeFiles/randpaper.dir/src/main.cpp.o	3e864ccd656b7088
-1	29	1732827830561551567	randpaper	387da5aeab6cd7dc
+33	62	1732830960963112691	randhyprpaper	33de3c4c469e01bb
+1	33	1732830960929779065	CMakeFiles/randhyprpaper.dir/src/main.cpp.o	67aa12c18666d816
 1	30	1732827960329329869	CMakeFiles/randpaper.dir/src/main.cpp.o	3e864ccd656b7088
 30	59	1732827960355997287	randpaper	387da5aeab6cd7dc
+1	29	1732831110184541326	CMakeFiles/randhyprpaper.dir/src/main.cpp.o	67aa12c18666d816
+29	57	1732831110211208266	randhyprpaper	33de3c4c469e01bb

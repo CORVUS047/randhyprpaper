@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/corvus/Documents/coding/script-cpp-rewrites/hyprpaper_rpaper/build"
+			"value" : "/home/corvus/Documents/coding/script-cpp-rewrites/randpaper/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/corvus/Documents/coding/script-cpp-rewrites/hyprpaper_rpaper/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/corvus/Documents/coding/script-cpp-rewrites/randpaper/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/corvus/Documents/coding/script-cpp-rewrites/hyprpaper_rpaper"
+			"value" : "/home/corvus/Documents/coding/script-cpp-rewrites/randpaper"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -863,7 +863,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "randpaper"
+			"value" : "randhyprpaper"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1470,7 +1470,7 @@
 			"value" : "/home/corvus/.config/vcpkg/installed"
 		},
 		{
-			"name" : "randpaper_BINARY_DIR",
+			"name" : "randhyprpaper_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1479,10 +1479,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/corvus/Documents/coding/script-cpp-rewrites/hyprpaper_rpaper/build"
+			"value" : "/home/corvus/Documents/coding/script-cpp-rewrites/randpaper/build"
 		},
 		{
-			"name" : "randpaper_IS_TOP_LEVEL",
+			"name" : "randhyprpaper_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1494,7 +1494,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "randpaper_SOURCE_DIR",
+			"name" : "randhyprpaper_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1503,7 +1503,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/corvus/Documents/coding/script-cpp-rewrites/hyprpaper_rpaper"
+			"value" : "/home/corvus/Documents/coding/script-cpp-rewrites/randpaper"
 		}
 	],
 	"kind" : "cache",

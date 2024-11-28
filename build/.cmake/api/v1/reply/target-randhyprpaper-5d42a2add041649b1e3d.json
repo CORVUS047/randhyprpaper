@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "randpaper"
+			"path" : "randhyprpaper"
 		}
 	],
 	"backtrace" : 2,
@@ -47,7 +47,7 @@
 			]
 		}
 	],
-	"id" : "randpaper::@6890427a1f51a3e7e1df",
+	"id" : "randhyprpaper::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -57,14 +57,14 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,--dependency-file,CMakeFiles/randpaper.dir/link.d",
+				"fragment" : "-Wl,--dependency-file,CMakeFiles/randhyprpaper.dir/link.d",
 				"role" : "flags"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "randpaper",
-	"nameOnDisk" : "randpaper",
+	"name" : "randhyprpaper",
+	"nameOnDisk" : "randhyprpaper",
 	"paths" : 
 	{
 		"build" : ".",
