@@ -17,3 +17,7 @@ cd randhyprpaper
 bash install.sh
 ```
 randhyprpaper requires a restart of hyprland in order to function properly!!!
+
+## Configuration
+Configuration options are automatically set in your hyprland.conf file via environment variables.
+Any time you edit these variables hyprland must be reset for them to take effect.

@@ -16,4 +16,5 @@ echo "
 NOTE: randhyprpaper requires a restart of hyprland or a reboot.
 If you want to change your wallpaper directory or wallpaper delay
 edit the WALLPAPER_DIR and WALLPAPER_DELAY environment variables 
-in your hyprland.conf file."
+in your hyprland.conf file. Anytime you change the environment
+variables you must restart hyprland for them to take effect."
