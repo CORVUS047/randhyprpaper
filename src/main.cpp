@@ -44,10 +44,6 @@ int main() {
 
   printf("Previous wallpaper: %s \n", prevWallpaper);
 
-  // keep getting random wallpaper until it is not the prevWallpaper then post
-
-  // there is an error where nextWallpaper has characters from prevWallpaper on
-  // the end of it. I think this is because stupid pc
   int iterationOverflow = 0;
   char getNextWallpaper[] = "ls -1 $WALLPAPER_DIR/{*,*} | shuf -n 1";
   c = 0;
