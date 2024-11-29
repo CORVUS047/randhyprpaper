@@ -27,3 +27,7 @@ env = WALLPAPER_DIR,(insert the directory of your wallpapers)
 env = WALLPAPER_DELAY,(insert time between wallpaper change or 0 to disable wallpaper changing)
 ```
 Any time you edit these variables hyprland must be reset for them to take effect.
+
+## Planned Features
+1. Multi-Monitor support
+2. Multiple paths for wallpapers
