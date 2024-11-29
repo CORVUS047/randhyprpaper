@@ -7,11 +7,12 @@ randhyprpaper is a simple c++ script that randomizes your wallpaper based off of
 3. ninja
 4. cmake
 5. git
+6. a c++ compiler (like gcc) 
 
 ## Installation:
 Copy the following commands into your terminal
 ```bash
-sudo pacman -S cmake ninja git
+sudo pacman -S cmake ninja git gcc
 git clone https://github.com/CORVUS047/randhyprpaper.git
 cd randhyprpaper
 bash install.sh
