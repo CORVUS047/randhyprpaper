@@ -21,7 +21,7 @@ randhyprpaper requires a restart of hyprland in order to function properly!!!
 ## Configuration
 Configuration options are automatically set in your hyprland.conf file as
 ```
-env = WALLPAPER_DIR,(the directory of your wallpapers)
-env = WALLPAPER_DELAY,(time between wallpaper change or 0 to disable wallpaper changing)
+env = WALLPAPER_DIR,(insert the directory of your wallpapers)
+env = WALLPAPER_DELAY,(insert time between wallpaper change or 0 to disable wallpaper changing)
 ```
 Any time you edit these variables hyprland must be reset for them to take effect.
