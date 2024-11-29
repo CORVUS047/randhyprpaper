@@ -96,7 +96,10 @@ int main() {
              "\"\nsleep 0.2\nhyprctl --instance 0 hyprpaper unload ");
       strcat(postWallpaperCommand, nextWallpaper);
       system(postWallpaperCommand);
-      sleep(delayMins * 60);
+      if (delayMins > 0) {
+        sleep(delayMins * 60);
+      } else
+        break;
     }
   }
 

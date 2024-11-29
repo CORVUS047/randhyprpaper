@@ -1,11 +1,13 @@
 #!/bin/bash
 echo "Enter a directory for your wallpapers:"
 read wallpaperDirectory
-echo "Enter the time in minutes that you want between wallpaper changes:"
+echo "Enter the location of your hyprland.conf file:"
+read hyprlandConfig
+echo "Enter the time in minutes that you want between wallpaper changes (0 to disable wallpaper changing):"
 read wallpaperDelay
-echo "env = WALLPAPER_DIR,$wallpaperDirectory" >>~/.config/hypr/hyprland.conf
-echo "env = WALLPAPER_DELAY,$wallpaperDelay" >>~/.config/hypr/hyprland.conf
-echo "exec-once = sleep 9 && randhyprpaper" >>~/.config/hypr/hyprland.conf
+echo "env = WALLPAPER_DIR,$wallpaperDirectory" >>hyprlandConfig
+echo "env = WALLPAPER_DELAY,$wallpaperDelay" >>hyprlandConfig
+echo "exec-once = sleep 9 && randhyprpaper" >>hyprlandConfig
 cmake -GNinja -S . -B build
 cd build
 ninja
