@@ -11,6 +11,7 @@ randhyprpaper is a simple c++ script that randomizes your wallpaper based off of
 
 ## Installation:
 Copy the following commands into your terminal
+#### Note: use your package manager instead of pacman if you aren't using an arch based system!!!
 ```bash
 sudo pacman -S cmake ninja git gcc
 git clone https://github.com/CORVUS047/randhyprpaper.git
