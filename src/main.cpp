@@ -93,6 +93,7 @@ int main() {
       strcat(postWallpaperCommand, nextWallpaper);
       system(postWallpaperCommand);
       if (delayMins > 0) {
+        iterationOverflow = 0;
         sleep(delayMins * 60);
       } else
         break;
