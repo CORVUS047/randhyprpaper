@@ -87,13 +87,13 @@ int main() {
       }
     } else if (nextWallpaper != prevWallpaper) {
       char postWallpaperCommand[1024] =
-          "hyprctl --instance 0 hyprpaper preload ";
+          "hyprctl -q --instance 0 hyprpaper preload ";
       strcat(postWallpaperCommand, nextWallpaper);
       strcat(postWallpaperCommand,
-             "\nhyprctl --instance 0 hyprpaper wallpaper \",");
+             "\nhyprctl -q --instance 0 hyprpaper wallpaper \",");
       strcat(postWallpaperCommand, nextWallpaper);
       strcat(postWallpaperCommand,
-             "\"\nsleep 0.2\nhyprctl --instance 0 hyprpaper unload ");
+             "\"\nsleep 0.2\nhyprctl -q --instance 0 hyprpaper unload ");
       strcat(postWallpaperCommand, nextWallpaper);
       system(postWallpaperCommand);
       if (delayMins > 0) {
